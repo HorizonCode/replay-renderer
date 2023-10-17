@@ -1,0 +1,38 @@
+2023/10/17 11:46:31 -------------------------------------------------------------------
+2023/10/17 11:46:31 danser-go version: 0.9.1
+2023/10/17 11:46:31 Build commit hash: 0518d83a2a9966780040f002677066c32dc185fa
+2023/10/17 11:46:31 Ran using: [/home/ezppfarm/replayrecorder/bin/danser -out=/home/ezppfarm/replayrecorder/data/export/test.mp4 -md5=1d342e28203cd7535457be4a0f549e20 -r=/home/ezppfarm/replayrecorder/data/replays/3500706.osr]
+2023/10/17 11:46:31 OS:  ubuntu 22.04
+2023/10/17 11:46:31 CPU: Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz, 1 cores
+2023/10/17 11:46:31 RAM: 3.8 GiB
+2023/10/17 11:46:31 -------------------------------------------------------------------
+2023/10/17 11:46:31 PlatformError: X11: Failed to open display :0
+2023/10/17 11:46:31 panic: NotInitialized: The GLFW library is not initialized
+2023/10/17 11:46:31 goroutine 17 [running, locked to thread]:
+2023/10/17 11:46:31 github.com/go-gl/glfw/v3.3/glfw.acceptError({0x0, 0x0, 0x10006?})
+2023/10/17 11:46:31 	github.com/go-gl/glfw/v3.3/glfw@v0.0.0-20221017161538-93cebf72946b/error.go:174 +0x1f4
+2023/10/17 11:46:31 github.com/go-gl/glfw/v3.3/glfw.panicError(...)
+2023/10/17 11:46:31 	github.com/go-gl/glfw/v3.3/glfw@v0.0.0-20221017161538-93cebf72946b/error.go:185
+2023/10/17 11:46:31 github.com/go-gl/glfw/v3.3/glfw.GetPrimaryMonitor()
+2023/10/17 11:46:31 	github.com/go-gl/glfw/v3.3/glfw@v0.0.0-20221017161538-93cebf72946b/monitor.go:78 +0x38
+2023/10/17 11:46:31 github.com/wieku/danser-go/launcher.(*launcher).startGLFW(0xc0000b0000)
+2023/10/17 11:46:31 	github.com/wieku/danser-go/launcher/launcher.go:276 +0x35
+2023/10/17 11:46:31 github.com/wieku/danser-go/launcher.StartLauncher.func2.Call.func3()
+2023/10/17 11:46:31 	github.com/faiface/mainthread@v0.0.0-20171120011319-8b78f0a41ae3/mainthread.go:63 +0x23
+2023/10/17 11:46:31 github.com/faiface/mainthread.Run(0xc000190570)
+2023/10/17 11:46:31 	github.com/faiface/mainthread@v0.0.0-20171120011319-8b78f0a41ae3/mainthread.go:44 +0xba
+2023/10/17 11:46:31 github.com/wieku/danser-go/launcher.StartLauncher()
+2023/10/17 11:46:31 	github.com/wieku/danser-go/launcher/launcher.go:218 +0x2c5
+2023/10/17 11:46:31 main.danserMain(0x1, {0x1bf7570?, 0x0?, 0x7f141579b501?})
+2023/10/17 11:46:31 	github.com/wieku/danser-go/mainshared.go:18 +0x69
+2023/10/17 11:46:31 
+2023/10/17 11:46:31 goroutine 19 [chan receive]:
+2023/10/17 11:46:31 github.com/faiface/mainthread.Call(...)
+2023/10/17 11:46:31 	github.com/faiface/mainthread@v0.0.0-20171120011319-8b78f0a41ae3/mainthread.go:66
+2023/10/17 11:46:31 github.com/wieku/danser-go/launcher.StartLauncher.func2()
+2023/10/17 11:46:31 	github.com/wieku/danser-go/launcher/launcher.go:226 +0x109
+2023/10/17 11:46:31 github.com/faiface/mainthread.Run.func1()
+2023/10/17 11:46:31 	github.com/faiface/mainthread@v0.0.0-20171120011319-8b78f0a41ae3/mainthread.go:37 +0x23
+2023/10/17 11:46:31 created by github.com/faiface/mainthread.Run in goroutine 17
+2023/10/17 11:46:31 	github.com/faiface/mainthread@v0.0.0-20171120011319-8b78f0a41ae3/mainthread.go:36 +0xae
+2023/10/17 11:46:31 

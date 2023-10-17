@@ -1,0 +1,23 @@
+{
+  "name": "replayrecorder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/cli-progress": "^3.11.3",
+    "cli-progress": "^3.12.0",
+    "osu-classes": "^3.0.0",
+    "osu-parsers": "^4.1.3"
+  }
+}

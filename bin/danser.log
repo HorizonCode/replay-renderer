@@ -1,0 +1,103 @@
+2023/10/17 11:46:44 -------------------------------------------------------------------
+2023/10/17 11:46:44 danser-go version: 0.9.1
+2023/10/17 11:46:44 Build commit hash: 0518d83a2a9966780040f002677066c32dc185fa
+2023/10/17 11:46:44 Ran using: [/home/ezppfarm/replayrecorder/bin/danser-cli -out=/home/ezppfarm/replayrecorder/data/export/test.mp4 -md5=1d342e28203cd7535457be4a0f549e20 -r=/home/ezppfarm/replayrecorder/data/replays/3500706.osr]
+2023/10/17 11:46:44 OS:  ubuntu 22.04
+2023/10/17 11:46:44 CPU: Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz, 1 cores
+2023/10/17 11:46:44 RAM: 3.8 GiB
+2023/10/17 11:46:44 -------------------------------------------------------------------
+2023/10/17 11:46:44 Checking Github for a new version of danser...
+2023/10/17 11:46:44 You're using the newest version of danser.
+2023/10/17 11:46:44 SettingsManager: Loading "/home/ezppfarm/replayrecorder/bin/settings/default.json"
+2023/10/17 11:46:44 SettingsManager: "/home/ezppfarm/replayrecorder/bin/settings/default.json" loaded!
+2023/10/17 11:46:44 SettingsManager: Saving settings to "/home/ezppfarm/replayrecorder/bin/settings/default.json"
+2023/10/17 11:46:44 ApiConnector: Saving current settings to "/home/ezppfarm/replayrecorder/bin/settings/credentials.json"
+2023/10/17 11:46:44 Current config: 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
+2023/10/17 11:46:44 DatabaseManager: Initializing database...
+2023/10/17 11:46:44 DatabaseManager: Database schema version: 20220622
+2023/10/17 11:46:44 DatabaseManager: Database data version: 20220622
+2023/10/17 11:46:44 DatabaseManager: Unpacking /home/ezppfarm/replayrecorder/data/songs/1929147.osz -> /home/ezppfarm/replayrecorder/data/songs/1929147
+2023/10/17 11:46:44 DatabaseManager: Scanning "/home/ezppfarm/replayrecorder/data/songs" for .osu files...
+2023/10/17 11:46:44 DatabaseManager: Scan complete. Found 4 files.
+2023/10/17 11:46:44 DatabaseManager: Comparing files with database...
+2023/10/17 11:46:44 DatabaseManager: Compare complete.
+2023/10/17 11:46:44 DatabaseManager: Starting import of 4 maps. It may take up to several minutes...
+2023/10/17 11:46:44 DatabaseManager: Imported 4 new/updated beatmaps.
+2023/10/17 11:46:44 DatabaseManager: Loading beatmaps from database...
+2023/10/17 11:46:44 DatabaseManager: Loaded 4 total.
+2023/10/17 11:46:44 Initializing GLFW...
+2023/10/17 11:46:44 PlatformError: X11: Failed to open display :0
+2023/10/17 11:46:44 GLFW Initialized!
+2023/10/17 11:46:44 panic: NotInitialized: The GLFW library is not initialized
+2023/10/17 11:46:44 goroutine 17 [running, locked to thread]:
+2023/10/17 11:46:44 github.com/go-gl/glfw/v3.3/glfw.acceptError({0x0, 0x0, 0xc0004a9398?})
+2023/10/17 11:46:44 	github.com/go-gl/glfw/v3.3/glfw@v0.0.0-20221017161538-93cebf72946b/error.go:174 +0x1f4
+2023/10/17 11:46:44 github.com/go-gl/glfw/v3.3/glfw.panicError(...)
+2023/10/17 11:46:44 	github.com/go-gl/glfw/v3.3/glfw@v0.0.0-20221017161538-93cebf72946b/error.go:185
+2023/10/17 11:46:44 github.com/go-gl/glfw/v3.3/glfw.WindowHint(0xc0004a92c8?, 0xc0004a92d8?)
+2023/10/17 11:46:44 	github.com/go-gl/glfw/v3.3/glfw@v0.0.0-20221017161538-93cebf72946b/window.go:275 +0x36
+2023/10/17 11:46:44 github.com/wieku/danser-go/framework/platform.SetupContext()
+2023/10/17 11:46:44 	github.com/wieku/danser-go/framework/platform/gl.go:17 +0x1d
+2023/10/17 11:46:44 github.com/wieku/danser-go/app.run.func2()
+2023/10/17 11:46:44 	github.com/wieku/danser-go/app/app.go:336 +0x13b8
+2023/10/17 11:46:44 github.com/wieku/danser-go/app.run.Call.func3()
+2023/10/17 11:46:44 	github.com/faiface/mainthread@v0.0.0-20171120011319-8b78f0a41ae3/mainthread.go:63 +0x23
+2023/10/17 11:46:44 github.com/faiface/mainthread.Run(0x7fa6ae2f3fe0)
+2023/10/17 11:46:44 	github.com/faiface/mainthread@v0.0.0-20171120011319-8b78f0a41ae3/mainthread.go:44 +0xba
+2023/10/17 11:46:44 github.com/wieku/danser-go/app.Run()
+2023/10/17 11:46:44 	github.com/wieku/danser-go/app/app.go:797 +0x8a
+2023/10/17 11:46:44 main.danserMain(0x0, {0xc8f570?, 0x0?, 0x7fa6ad9d7501?})
+2023/10/17 11:46:44 	github.com/wieku/danser-go/mainshared.go:20 +0x70
+2023/10/17 11:46:44 
+2023/10/17 11:46:44 goroutine 35 [chan receive]:
+2023/10/17 11:46:44 github.com/faiface/mainthread.Call(...)
+2023/10/17 11:46:44 	github.com/faiface/mainthread@v0.0.0-20171120011319-8b78f0a41ae3/mainthread.go:66
+2023/10/17 11:46:44 github.com/wieku/danser-go/app.run()
+2023/10/17 11:46:44 	github.com/wieku/danser-go/app/app.go:88 +0xb6
+2023/10/17 11:46:44 github.com/faiface/mainthread.Run.func1()
+2023/10/17 11:46:44 	github.com/faiface/mainthread@v0.0.0-20171120011319-8b78f0a41ae3/mainthread.go:37 +0x23
+2023/10/17 11:46:44 created by github.com/faiface/mainthread.Run in goroutine 17
+2023/10/17 11:46:44 	github.com/faiface/mainthread@v0.0.0-20171120011319-8b78f0a41ae3/mainthread.go:36 +0xae
+2023/10/17 11:46:44 
+2023/10/17 11:46:44 goroutine 9 [IO wait]:
+2023/10/17 11:46:44 internal/poll.runtime_pollWait(0x7fa6a81b5d30, 0x72)
+2023/10/17 11:46:44 	runtime/netpoll.go:343 +0x85
+2023/10/17 11:46:44 internal/poll.(*pollDesc).wait(0xc000214400?, 0xc0001b2000?, 0x0)
+2023/10/17 11:46:44 	internal/poll/fd_poll_runtime.go:84 +0x27
+2023/10/17 11:46:44 internal/poll.(*pollDesc).waitRead(...)
+2023/10/17 11:46:44 	internal/poll/fd_poll_runtime.go:89
+2023/10/17 11:46:44 internal/poll.(*FD).Read(0xc000214400, {0xc0001b2000, 0xc80, 0xc80})
+2023/10/17 11:46:44 	internal/poll/fd_unix.go:164 +0x27a
+2023/10/17 11:46:44 net.(*netFD).Read(0xc000214400, {0xc0001b2000?, 0x710?, 0xc0000fe000?})
+2023/10/17 11:46:44 	net/fd_posix.go:55 +0x25
+2023/10/17 11:46:44 net.(*conn).Read(0xc000058048, {0xc0001b2000?, 0x7fa6adbf9717?, 0xc0001b2575?})
+2023/10/17 11:46:44 	net/net.go:179 +0x45
+2023/10/17 11:46:44 crypto/tls.(*atLeastReader).Read(0xc0004320d8, {0xc0001b2000?, 0xc0004320d8?, 0x0?})
+2023/10/17 11:46:44 	crypto/tls/conn.go:805 +0x3b
+2023/10/17 11:46:44 bytes.(*Buffer).ReadFrom(0xc000194628, {0x7fa6ae2f91e0, 0xc0004320d8})
+2023/10/17 11:46:44 	bytes/buffer.go:211 +0x98
+2023/10/17 11:46:44 crypto/tls.(*Conn).readFromUntil(0xc000194380, {0x7fa6ae2f9320?, 0xc000058048}, 0xc0001b2575?)
+2023/10/17 11:46:44 	crypto/tls/conn.go:827 +0xde
+2023/10/17 11:46:44 crypto/tls.(*Conn).readRecordOrCCS(0xc000194380, 0x0)
+2023/10/17 11:46:44 	crypto/tls/conn.go:625 +0x250
+2023/10/17 11:46:44 crypto/tls.(*Conn).readRecord(...)
+2023/10/17 11:46:44 	crypto/tls/conn.go:587
+2023/10/17 11:46:44 crypto/tls.(*Conn).Read(0xc000194380, {0xc0004e5000, 0x1000, 0x7fa6adc767a5?})
+2023/10/17 11:46:44 	crypto/tls/conn.go:1369 +0x158
+2023/10/17 11:46:44 bufio.(*Reader).Read(0xc0000b31a0, {0xc0004e0120, 0x9, 0x7fa6ae692c00?})
+2023/10/17 11:46:44 	bufio/bufio.go:244 +0x197
+2023/10/17 11:46:44 io.ReadAtLeast({0x7fa6ae2f8720, 0xc0000b31a0}, {0xc0004e0120, 0x9, 0x9}, 0x9)
+2023/10/17 11:46:44 	io/io.go:335 +0x90
+2023/10/17 11:46:44 io.ReadFull(...)
+2023/10/17 11:46:44 	io/io.go:354
+2023/10/17 11:46:44 net/http.http2readFrameHeader({0xc0004e0120, 0x9, 0x186570?}, {0x7fa6ae2f8720?, 0xc0000b31a0?})
+2023/10/17 11:46:44 	net/http/h2_bundle.go:1635 +0x65
+2023/10/17 11:46:44 net/http.(*http2Framer).ReadFrame(0xc0004e00e0)
+2023/10/17 11:46:44 	net/http/h2_bundle.go:1899 +0x85
+2023/10/17 11:46:44 net/http.(*http2clientConnReadLoop).run(0xc000113f98)
+2023/10/17 11:46:44 	net/http/h2_bundle.go:9276 +0x11f
+2023/10/17 11:46:44 net/http.(*http2ClientConn).readLoop(0xc0000ec180)
+2023/10/17 11:46:44 	net/http/h2_bundle.go:9171 +0x65
+2023/10/17 11:46:44 created by net/http.(*http2Transport).newClientConn in goroutine 8
+2023/10/17 11:46:44 	net/http/h2_bundle.go:7843 +0xcbe
+2023/10/17 11:46:44 
