@@ -42,7 +42,11 @@ const exportFolder = path.join(__dirname, "data", "export");
   await promises.writeFile(setFile, Buffer.from(beatmapSetArray));
   console.log("BeatmapSet saved!");
   console.log("rendering replay...\n");
-  const progress = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
+  const progress = new cliProgress.SingleBar({
+    barCompleteChar: '+',
+    barIncompleteChar: '-',
+    format: "[{bar}] {percentage}% | ETA: {eta}s"
+  });
   progress.start(100, 0);
   const danserProcess = spawn(danserExecuteable, [`-skin=Rafis`, `-out=${replayId}`, `-md5=${beatmapHash}`, `-r=${replayFile}`, `-preciseprogress`])
   danserProcess.stdout.on('data', function (data) {
