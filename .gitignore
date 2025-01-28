@@ -1,1 +1,8 @@
 /node_modules
+data/songs/*
+data/replays/*
+data/export/*
+bin/danser.log
+bin/danser.db
+bin-win/danser.log
+bin-win/danser.db

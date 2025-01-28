@@ -1,24 +1,30 @@
 import { spawn } from "child_process";
-import { promises } from "fs";
+import { existsSync, mkdirSync, promises } from "fs";
 import { ScoreDecoder } from "osu-parsers";
 import path from "path";
 import * as cliProgress from 'cli-progress';
 
-const replayId = 3488591;
+const replayId = 3716768;
 
-const danserExecuteable = path.join(__dirname, process.platform == "win32" ? "bin-win" : "bin", "danser-cli.exe");
+const danserExecuteable = path.join(__dirname, process.platform == "win32" ? "bin-win" : "bin", process.platform == "win32" ? "danser-cli.exe" : "danser-cli");
 const replaysFolder = path.join(__dirname, "data", "replays");
 const songsFolder = path.join(__dirname, "data", "songs");
 const exportFolder = path.join(__dirname, "data", "export");
 
+if (!existsSync(replaysFolder)) mkdirSync(replaysFolder);
+if (!existsSync(songsFolder)) mkdirSync(songsFolder);
+if (!existsSync(exportFolder)) mkdirSync(exportFolder);
 (async () => {
-  if (process.platform != "win32" && process.platform == "linux") {
+  if (process.platform !== "win32" && process.platform !== "linux") {
     console.log(`The platform ${process.platform} is not compatible.`);
     return;
   }
   console.log("Downloading replay...");
-  const replayDownload = await fetch(`https://api.ez-pp.farm/get_replay?id=${replayId}`);
-  if (!replayDownload.ok) return;
+  const replayDownload = await fetch(`https://api.ez-pp.farm/v1/get_replay?id=${replayId}`);
+  if (!replayDownload.ok) {
+    console.log("Failed to download replay.")
+    return;
+  }
   const replayArray = await replayDownload.arrayBuffer();
   const replayFile = path.join(replaysFolder, `${replayId}.osr`);
   await promises.writeFile(replayFile, Buffer.from(replayArray));
@@ -29,14 +35,20 @@ const exportFolder = path.join(__dirname, "data", "export");
   console.log("replay parsed!");
   const beatmapHash = parsedScore.info.beatmapHashMD5;
   console.log("Getting BeatmapSet info...");
-  const beatmapDataRequest = await fetch(`https://api.osu.direct/v2/md5/${beatmapHash}`);
-  if (!beatmapDataRequest.ok) return;
+  const beatmapDataRequest = await fetch(`https://osu.direct/api/v2/md5/${beatmapHash}`);
+  if (!beatmapDataRequest.ok){
+    console.log("Failed to get beatmapset info.", beatmapDataRequest.status, `https://osu.direct/api/v2/md5/${beatmapHash}`);
+    return;
+  }
   const beatmapData = await beatmapDataRequest.json();
   console.log("got beatmapset info!");
   const beatmapSetId = beatmapData.beatmapset_id;
   console.log("Downloading BeatmapSet...");
-  const beatmapSetDownloadRequest = await fetch(`https://api.osu.direct/d/${beatmapSetId}?noVideo`);
-  if (!beatmapSetDownloadRequest.ok) return;
+  const beatmapSetDownloadRequest = await fetch(`https://osu.direct/api/d/${beatmapSetId}?noVideo`);
+  if (!beatmapSetDownloadRequest.ok){
+    console.log("Failed to download beatmapset.", beatmapSetDownloadRequest.status);
+    return;
+  }
   const beatmapSetArray = await beatmapSetDownloadRequest.arrayBuffer();
   const setFile = path.join(songsFolder, `${beatmapSetId}.osz`);
   await promises.writeFile(setFile, Buffer.from(beatmapSetArray));
