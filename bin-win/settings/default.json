@@ -26,6 +26,7 @@
 		"MusicVolume": 0.5,
 		"SampleVolume": 0.5,
 		"Offset": 15,
+		"OnlineOffset": false,
 		"HitsoundPositionMultiplier": 1,
 		"IgnoreBeatmapSamples": false,
 		"IgnoreBeatmapSampleVolume": false,
@@ -201,6 +202,7 @@
 			"Opacity": 1,
 			"XOffset": 0,
 			"YOffset": 0,
+			"Mode": "Normal",
 			"ModsOnly": false,
 			"AlignRight": false,
 			"HideOthers": false,
@@ -215,6 +217,7 @@
 			"YOffset": 0,
 			"HideInReplays": false,
 			"FoldInReplays": false,
+			"ShowLazerMod": true,
 			"AdditionalSpacing": 0
 		},
 		"Boundaries": {
@@ -238,6 +241,7 @@
 			"Path": "",
 			"AboveHpBar": false
 		},
+		"SBFont": "",
 		"HUDFont": "",
 		"ShowResultsScreen": true,
 		"ResultsScreenTime": 5,
@@ -247,7 +251,8 @@
 		"FlashlightDim": 1,
 		"PlayUsername": "Guest",
 		"IgnoreFailsInReplays": false,
-		"UseLazerPP": false
+		"PPVersion": "latest",
+		"LazerClassicScore": false
 	},
 	"Skin": {
 		"CurrentSkin": "default",
@@ -297,6 +302,7 @@
 		"TrailMaxLength": 2000,
 		"TrailRemoveSpeed": 1,
 		"GlowEndScale": 0.4,
+		"SmokeRemoveSpeed": 1,
 		"InnerLengthMult": 0.9,
 		"AdditiveBlending": true,
 		"CursorRipples": false,
@@ -568,6 +574,7 @@
 		"HideOverlayOnBreaks": false,
 		"MinCursorSize": 3,
 		"MaxCursorSize": 7,
+		"SmokeEnabled": false,
 		"AddDanser": false,
 		"DanserName": "danser"
 	},
@@ -604,6 +611,13 @@
 			"RateControl": "cq",
 			"Bitrate": "10M",
 			"CQ": 24,
+			"Preset": "p7",
+			"AdditionalOptions": ""
+		},
+		"av1_nvenc": {
+			"RateControl": "cbr",
+			"Bitrate": "5M",
+			"CQ": 0,
 			"Preset": "p7",
 			"AdditionalOptions": ""
 		},
@@ -659,6 +673,11 @@
 			"BlendFrames": 24,
 			"BlendFunctionID": 27,
 			"GaussWeightsMult": 1.5
+		}
+	},
+	"Debug": {
+		"PerfGraph": {
+			"MaxRange": 1.2
 		}
 	}
 }
